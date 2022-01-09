@@ -1,4 +1,4 @@
-let element = document.getElementsByClassName("icons"); 
+let element = document.getElementsByClassName("icons")[0]; 
 
 function onClick(event){
 	event.target.style.color = generateRandomColor();
